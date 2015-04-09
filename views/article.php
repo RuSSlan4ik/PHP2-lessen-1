@@ -13,7 +13,7 @@
 
   <div><?php echo $article['text_news']; ?></div>
 </article>
-</br>
-<div><a href="/php2.local/">Назад</a></div>
+<br/>
+<div><a href="../">Назад</a></div>
 </body>
 </html>
