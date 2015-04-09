@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/../functions/db.php';
+require __DIR__ . 'db.php';
 function addNews($author_name, $title, $text_news, $dat)
 {
   dbConnect();
