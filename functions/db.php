@@ -18,4 +18,3 @@ function dbFindOneByQuery($sql)
 {
   return dbFindAllByQuery($sql)[0];
 }
-?>
