@@ -2,7 +2,7 @@
 require __DIR__ . '/../functions/db.php';
 function findAllNews()
 {
-  $sql = 'SELECT * FROM NEWS ORDER BY date DESC';
+  $sql = 'SELECT * FROM NEWS ORDER BY data DESC';
   $ret = dbFindAllByQuery($sql);
   return $ret;
 }
