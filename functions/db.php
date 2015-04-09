@@ -9,7 +9,7 @@ function dbFindAllByQuery($sql)
   dbConnect();
   $res = mysql_query($sql);
   $ret = array();
-  while (($row = mysql_fetch_array($res))!== false) {
+  while(($row = mysql_fetch_array($res)) !== false) {
     $ret[] = $row;
   }
   return $ret;
