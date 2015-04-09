@@ -9,7 +9,7 @@
   <article>
     <h3>
       <?php echo $article['title']; ?>
-    </h3><p>Автор новости:<?php echo $article['author_name']; ?></p>
+    </h3><p><?php echo $article['data']; ?>Автор новости:<?php echo $article['author_name']; ?></p>
 
     <div><?php echo $article['text_news']; ?></div>
   </article>
