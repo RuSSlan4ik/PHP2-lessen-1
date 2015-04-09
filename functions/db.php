@@ -8,8 +8,8 @@ function dbFindAllByQuery($sql)
 {
   dbConnect();
   $res = mysql_query($sql);
-  $ret = [];
-  while (false !== ($row = mysql_fetch_array($res))) {
+  $ret = array();
+  while (($row = mysql_fetch_array($res))!== false) {
     $ret[] = $row;
   }
   return $ret;
