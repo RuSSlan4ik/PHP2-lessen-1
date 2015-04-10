@@ -11,10 +11,10 @@
   <article>
     <h3>
       <a href="../article.php?id=<?php echo $article['id']; ?>">
-        <?php echo $article['title']; ?>
+        <?=$article['title']?>
       </a>
     </h3>
-    <div><?php echo $article['text_news']; ?></div>
+    <div><?=$article['text_news']?></div>
   </article>
 <?php endforeach; ?>
 </body>
