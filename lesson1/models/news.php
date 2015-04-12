@@ -1,5 +1,5 @@
 <?php
-require __DIR__ .'db.php';
+require __DIR__ . '/db.php';
 function findAllNews()
 {
   $sql = 'SELECT * FROM news ORDER BY data DESC';
